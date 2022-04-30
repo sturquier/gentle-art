@@ -1,0 +1,16 @@
+// Vitest Snapshot v1
+
+exports[`Sidebar > renders properly 1`] = `
+"<v-navigation-drawer>
+  <v-list>
+    <v-list-item>
+      <v-list-item-subtitle>Sweeps</v-list-item-subtitle>
+      <v-list>
+        <v-list-item>
+          <router-link to=\\"/sweeps/scissor\\">Scissor sweep</router-link>
+        </v-list-item>
+      </v-list>
+    </v-list-item>
+  </v-list>
+</v-navigation-drawer>"
+`;

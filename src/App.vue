@@ -6,17 +6,20 @@ import Sidebar from '@/components/Sidebar/Sidebar.vue'
 </script>
 
 <template>
-  <Header />
-    <div class="page">
+  <v-app>
+    <Header />
+    <v-main>
       <Sidebar />
-      <main>
+      <v-container fluid>
         <RouterView />
-      </main>
-    </div>
+      </v-container>
+    </v-main>
+  </v-app>
 </template>
 
 <style>
 @import '@/assets/style/reset.css';
+@import '@/assets/style/vuetify.css';
 @import '@/assets/style/base.css';
 @import '@/assets/style/layout.css';
 @import '@/assets/style/theme.css';

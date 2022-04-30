@@ -1,0 +1,7 @@
+// Vitest Snapshot v1
+
+exports[`Header > renders properly 1`] = `
+"<v-app-bar color=\\"primary\\">
+  <router-link to=\\"/\\"><img alt=\\"logo\\" class=\\"logo\\" src=\\"/src/assets/images/logo.svg\\"></router-link>
+</v-app-bar>"
+`;

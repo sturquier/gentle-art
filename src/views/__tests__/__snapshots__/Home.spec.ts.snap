@@ -1,0 +1,3 @@
+// Vitest Snapshot v1
+
+exports[`Home > renders properly 1`] = `"<h1>Home</h1>"`;

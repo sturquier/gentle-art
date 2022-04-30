@@ -1,12 +1,18 @@
 <template>
-  <header>
-    <img alt="logo" class="logo" src="@/assets/images/logo.svg" />
-  </header>
+  <v-app-bar color="primary">
+    <router-link to="/">
+      <img
+        alt="logo"
+        class="logo"
+        src="@/assets/images/logo.svg"
+      />
+    </router-link>
+  </v-app-bar>
 </template>
 
 <style>
   .logo {
-    width: 50px;
-    height: 50px;
+    width: 30px;
+    height: 30px;
   }
 </style>

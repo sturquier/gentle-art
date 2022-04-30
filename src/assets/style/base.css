@@ -5,3 +5,7 @@ body {
 h1 {
   font-family: 'Merriweather';
 }
+
+a {
+  text-decoration: none;
+}
