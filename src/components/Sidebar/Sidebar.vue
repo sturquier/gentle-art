@@ -17,10 +17,32 @@ const routesHavingChildren: Array<Route> = routes.filter(route => route.children
             v-for="(child, j) in route.children"
             :key="j"
           >
-            <router-link :to="child.path">{{ child.label }}</router-link>
+            <router-link
+              :to="child.path"
+              class="link"
+              active-class="link-active"
+            >
+              {{ child.label }}
+            </router-link>
           </v-list-item>
         </v-list>
+        <v-divider></v-divider>
       </v-list-item>
     </v-list>
   </v-navigation-drawer>
 </template>
+
+<style>
+  .link {
+    font-size: 14px;
+    color: var(--black);
+  }
+
+  .link:hover {
+    color: var(--indigo-400);
+  }
+
+  .link-active {
+    color: var(--indigo-700);
+  }
+</style>

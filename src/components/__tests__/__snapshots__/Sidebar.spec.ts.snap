@@ -4,12 +4,49 @@ exports[`Sidebar > renders properly 1`] = `
 "<v-navigation-drawer>
   <v-list>
     <v-list-item>
+      <v-list-item-subtitle>Positions</v-list-item-subtitle>
+      <v-list>
+        <v-list-item>
+          <router-link to=\\"/positions/closed-guard\\" class=\\"link\\" active-class=\\"link-active\\">Closed guard</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/positions/side-control\\" class=\\"link\\" active-class=\\"link-active\\">Side control</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/positions/knee-on-chest\\" class=\\"link\\" active-class=\\"link-active\\">Knee on chest</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/positions/mount\\" class=\\"link\\" active-class=\\"link-active\\">Mount</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/positions/back-mount\\" class=\\"link\\" active-class=\\"link-active\\">Back mount</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/positions/half-guard\\" class=\\"link\\" active-class=\\"link-active\\">Half guard</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/positions/spider-guard\\" class=\\"link\\" active-class=\\"link-active\\">Spider guard</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/positions/collar-sleeve-guard\\" class=\\"link\\" active-class=\\"link-active\\">Collar sleeve guard</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/positions/de-la-riva-guard\\" class=\\"link\\" active-class=\\"link-active\\">De la Riva guard</router-link>
+        </v-list-item>
+      </v-list>
+      <v-divider></v-divider>
+    </v-list-item>
+    <v-list-item>
       <v-list-item-subtitle>Sweeps</v-list-item-subtitle>
       <v-list>
         <v-list-item>
-          <router-link to=\\"/sweeps/scissor\\">Scissor sweep</router-link>
+          <router-link to=\\"/sweeps/scissor\\" class=\\"link\\" active-class=\\"link-active\\">Scissor sweep</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/sweeps/hip-bump\\" class=\\"link\\" active-class=\\"link-active\\">Hip bump sweep</router-link>
         </v-list-item>
       </v-list>
+      <v-divider></v-divider>
     </v-list-item>
   </v-list>
 </v-navigation-drawer>"

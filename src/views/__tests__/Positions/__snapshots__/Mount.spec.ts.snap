@@ -1,0 +1,3 @@
+// Vitest Snapshot v1
+
+exports[`Mount > renders properly 1`] = `"<h1>Mount</h1>"`;

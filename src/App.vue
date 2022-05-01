@@ -22,5 +22,6 @@ import Sidebar from '@/components/Sidebar/Sidebar.vue'
 @import '@/assets/style/vuetify.css';
 @import '@/assets/style/base.css';
 @import '@/assets/style/layout.css';
+@import '@/assets/style/vue-theme.css';
 @import '@/assets/style/theme.css';
 </style>

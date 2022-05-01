@@ -1,3 +1,7 @@
+.v-app-bar {
+  background: var(--indigo-700) !important;
+}
+
 .v-list-item {
   display: block !important;
 }

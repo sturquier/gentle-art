@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar color="primary">
+  <v-app-bar>
     <router-link to="/">
       <img
         alt="logo"
