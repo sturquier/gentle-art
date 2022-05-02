@@ -13,6 +13,10 @@ import Mount from '@/views/Positions/Mount/Mount.vue'
 import SideControl from '@/views/Positions/SideControl/SideControl.vue'
 import SpiderGuard from '@/views/Positions/SpiderGuard/SpiderGuard.vue'
 
+import Kimura from '@/views/Submissions/Kimura/Kimura.vue'
+import Omoplata from '@/views/Submissions/Omoplata/Omoplata.vue'
+import Triangle from '@/views/Submissions/Triangle/Triangle.vue'
+
 import HipBump from '@/views/Sweeps/HipBump/HipBump.vue'
 import Scissor from '@/views/Sweeps/Scissor/Scissor.vue'
 
@@ -40,9 +44,17 @@ export const routes: Array<Route> = [
     { label: 'Collar sleeve guard', path: '/positions/collar-sleeve-guard', component: CollarSleeveGuard },
     { label: 'De la Riva guard', path: '/positions/de-la-riva-guard', component: DeLaRivaGuard }
   ]},
+  { label: 'Transitions', children: [
+
+  ]},
   { label: 'Sweeps', children: [
     { label: 'Scissor sweep', path: '/sweeps/scissor', component: Scissor },
     { label: 'Hip bump sweep', path: '/sweeps/hip-bump', component: HipBump }
+  ]},
+  { label: 'Submissions', children: [
+    { label: 'Kimura', path: '/submissions/kimura', component: Kimura },
+    { label: 'Omoplata', path: '/submissions/omoplata', component: Omoplata },
+    { label: 'Triangle', path: '/submissions/triangle', component: Triangle }
   ]}
 ]
 

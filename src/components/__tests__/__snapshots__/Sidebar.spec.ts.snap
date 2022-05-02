@@ -37,6 +37,11 @@ exports[`Sidebar > renders properly 1`] = `
       <v-divider></v-divider>
     </v-list-item>
     <v-list-item>
+      <v-list-item-subtitle>Transitions</v-list-item-subtitle>
+      <v-list></v-list>
+      <v-divider></v-divider>
+    </v-list-item>
+    <v-list-item>
       <v-list-item-subtitle>Sweeps</v-list-item-subtitle>
       <v-list>
         <v-list-item>
@@ -44,6 +49,21 @@ exports[`Sidebar > renders properly 1`] = `
         </v-list-item>
         <v-list-item>
           <router-link to=\\"/sweeps/hip-bump\\" class=\\"link\\" active-class=\\"link-active\\">Hip bump sweep</router-link>
+        </v-list-item>
+      </v-list>
+      <v-divider></v-divider>
+    </v-list-item>
+    <v-list-item>
+      <v-list-item-subtitle>Submissions</v-list-item-subtitle>
+      <v-list>
+        <v-list-item>
+          <router-link to=\\"/submissions/kimura\\" class=\\"link\\" active-class=\\"link-active\\">Kimura</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/submissions/omoplata\\" class=\\"link\\" active-class=\\"link-active\\">Omoplata</router-link>
+        </v-list-item>
+        <v-list-item>
+          <router-link to=\\"/submissions/triangle\\" class=\\"link\\" active-class=\\"link-active\\">Triangle</router-link>
         </v-list-item>
       </v-list>
       <v-divider></v-divider>
