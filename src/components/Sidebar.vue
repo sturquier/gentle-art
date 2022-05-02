@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { routes, Route } from '../../router'
+import { routes, Route } from '../router'
 
 const routesHavingChildren: Array<Route> = routes.filter(route => route.children)
 </script>

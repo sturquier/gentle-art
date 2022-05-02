@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import Omoplata from '../../Submissions/Omoplata/Omoplata.vue'
+import Omoplata from '../../Submissions/Omoplata.vue'
 
 describe('Omoplata', () => {
   it('renders properly', () => {

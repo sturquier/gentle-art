@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import SpiderGuard from '../../Positions/SpiderGuard/SpiderGuard.vue'
+import SpiderGuard from '../../Positions/SpiderGuard.vue'
 
 describe('SpiderGuard', () => {
   it('renders properly', () => {

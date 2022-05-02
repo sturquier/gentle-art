@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import DeLaRivaGuard from '../../Positions/DeLaRivaGuard/DeLaRivaGuard.vue'
+import DeLaRivaGuard from '../../Positions/DeLaRivaGuard.vue'
 
 describe('DeLaRivaGuard', () => {
   it('renders properly', () => {

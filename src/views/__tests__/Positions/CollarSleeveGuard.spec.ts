@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import CollarSleeveGuard from '../../Positions/CollarSleeveGuard/CollarSleeveGuard.vue'
+import CollarSleeveGuard from '../../Positions/CollarSleeveGuard.vue'
 
 describe('CollarSleeveGuard', () => {
   it('renders properly', () => {

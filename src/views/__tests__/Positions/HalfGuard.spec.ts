@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import HalfGuard from '../../Positions/HalfGuard/HalfGuard.vue'
+import HalfGuard from '../../Positions/HalfGuard.vue'
 
 describe('HalfGuard', () => {
   it('renders properly', () => {

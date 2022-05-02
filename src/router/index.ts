@@ -1,24 +1,24 @@
 import type { defineComponent } from 'vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
-import Home from '@/views/Home/Home.vue'
+import Home from '@/views/Home.vue'
 
-import BackMount from '@/views/Positions/BackMount/BackMount.vue'
-import ClosedGuard from '@/views/Positions/ClosedGuard/ClosedGuard.vue'
-import CollarSleeveGuard from '@/views/Positions/CollarSleeveGuard/CollarSleeveGuard.vue'
-import DeLaRivaGuard from '@/views/Positions/DeLaRivaGuard/DeLaRivaGuard.vue'
-import HalfGuard from '@/views/Positions/HalfGuard/HalfGuard.vue'
-import KneeOnChest from '@/views/Positions/KneeOnChest/KneeOnChest.vue'
-import Mount from '@/views/Positions/Mount/Mount.vue'
-import SideControl from '@/views/Positions/SideControl/SideControl.vue'
-import SpiderGuard from '@/views/Positions/SpiderGuard/SpiderGuard.vue'
+import BackMount from '@/views/Positions/BackMount.vue'
+import ClosedGuard from '@/views/Positions/ClosedGuard.vue'
+import CollarSleeveGuard from '@/views/Positions/CollarSleeveGuard.vue'
+import DeLaRivaGuard from '@/views/Positions/DeLaRivaGuard.vue'
+import HalfGuard from '@/views/Positions/HalfGuard.vue'
+import KneeOnChest from '@/views/Positions/KneeOnChest.vue'
+import Mount from '@/views/Positions/Mount.vue'
+import SideControl from '@/views/Positions/SideControl.vue'
+import SpiderGuard from '@/views/Positions/SpiderGuard.vue'
 
-import Kimura from '@/views/Submissions/Kimura/Kimura.vue'
-import Omoplata from '@/views/Submissions/Omoplata/Omoplata.vue'
-import Triangle from '@/views/Submissions/Triangle/Triangle.vue'
+import Kimura from '@/views/Submissions/Kimura.vue'
+import Omoplata from '@/views/Submissions/Omoplata.vue'
+import Triangle from '@/views/Submissions/Triangle.vue'
 
-import HipBump from '@/views/Sweeps/HipBump/HipBump.vue'
-import Scissor from '@/views/Sweeps/Scissor/Scissor.vue'
+import HipBump from '@/views/Sweeps/HipBump.vue'
+import Scissor from '@/views/Sweeps/Scissor.vue'
 
 export interface Route {
   label: string

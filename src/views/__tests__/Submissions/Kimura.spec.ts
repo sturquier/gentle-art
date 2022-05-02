@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import Kimura from '../../Submissions/Kimura/Kimura.vue'
+import Kimura from '../../Submissions/Kimura.vue'
 
 describe('Kimura', () => {
   it('renders properly', () => {

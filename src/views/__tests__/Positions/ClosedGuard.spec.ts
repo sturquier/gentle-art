@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import ClosedGuard from '../../Positions/ClosedGuard/ClosedGuard.vue'
+import ClosedGuard from '../../Positions/ClosedGuard.vue'
 
 describe('ClosedGuard', () => {
   it('renders properly', () => {

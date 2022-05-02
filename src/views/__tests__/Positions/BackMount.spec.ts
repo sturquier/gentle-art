@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import BackMount from '../../Positions/BackMount/BackMount.vue'
+import BackMount from '../../Positions/BackMount.vue'
 
 describe('BackMount', () => {
   it('renders properly', () => {

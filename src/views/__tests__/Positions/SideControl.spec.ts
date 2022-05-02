@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest'
 import { mount } from '@vue/test-utils'
 
-import SideControl from '../../Positions/SideControl/SideControl.vue'
+import SideControl from '../../Positions/SideControl.vue'
 
 describe('SideControl', () => {
   it('renders properly', () => {
