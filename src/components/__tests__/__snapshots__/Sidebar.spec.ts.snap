@@ -2,9 +2,10 @@
 
 exports[`Sidebar > renders properly 1`] = `
 "<v-navigation-drawer>
-  <v-list>
+  <v-list class=\\"routes\\">
     <v-list-item>
-      <v-list-item-subtitle>Positions</v-list-item-subtitle>
+      <v-list-item-subtitle class=\\"label\\">Positions</v-list-item-subtitle>
+      <v-icon size=\\"x-small\\" icon=\\"mdi-arrow-up\\" class=\\"arrow\\"></v-icon>
       <v-list>
         <v-list-item>
           <router-link to=\\"/positions/closed-guard\\" class=\\"link\\" active-class=\\"link-active\\">Closed guard</router-link>
@@ -34,39 +35,26 @@ exports[`Sidebar > renders properly 1`] = `
           <router-link to=\\"/positions/de-la-riva-guard\\" class=\\"link\\" active-class=\\"link-active\\">De la Riva guard</router-link>
         </v-list-item>
       </v-list>
-      <v-divider></v-divider>
     </v-list-item>
     <v-list-item>
-      <v-list-item-subtitle>Transitions</v-list-item-subtitle>
-      <v-list></v-list>
-      <v-divider></v-divider>
+      <v-list-item-subtitle class=\\"label\\">Transitions</v-list-item-subtitle>
+      <v-icon size=\\"x-small\\" icon=\\"mdi-arrow-down\\" class=\\"arrow\\"></v-icon>
+      <!--v-if-->
     </v-list-item>
     <v-list-item>
-      <v-list-item-subtitle>Sweeps</v-list-item-subtitle>
-      <v-list>
-        <v-list-item>
-          <router-link to=\\"/sweeps/scissor\\" class=\\"link\\" active-class=\\"link-active\\">Scissor sweep</router-link>
-        </v-list-item>
-        <v-list-item>
-          <router-link to=\\"/sweeps/hip-bump\\" class=\\"link\\" active-class=\\"link-active\\">Hip bump sweep</router-link>
-        </v-list-item>
-      </v-list>
-      <v-divider></v-divider>
+      <v-list-item-subtitle class=\\"label\\">Guard passes</v-list-item-subtitle>
+      <v-icon size=\\"x-small\\" icon=\\"mdi-arrow-down\\" class=\\"arrow\\"></v-icon>
+      <!--v-if-->
     </v-list-item>
     <v-list-item>
-      <v-list-item-subtitle>Submissions</v-list-item-subtitle>
-      <v-list>
-        <v-list-item>
-          <router-link to=\\"/submissions/kimura\\" class=\\"link\\" active-class=\\"link-active\\">Kimura</router-link>
-        </v-list-item>
-        <v-list-item>
-          <router-link to=\\"/submissions/omoplata\\" class=\\"link\\" active-class=\\"link-active\\">Omoplata</router-link>
-        </v-list-item>
-        <v-list-item>
-          <router-link to=\\"/submissions/triangle\\" class=\\"link\\" active-class=\\"link-active\\">Triangle</router-link>
-        </v-list-item>
-      </v-list>
-      <v-divider></v-divider>
+      <v-list-item-subtitle class=\\"label\\">Sweeps</v-list-item-subtitle>
+      <v-icon size=\\"x-small\\" icon=\\"mdi-arrow-down\\" class=\\"arrow\\"></v-icon>
+      <!--v-if-->
+    </v-list-item>
+    <v-list-item>
+      <v-list-item-subtitle class=\\"label\\">Submissions</v-list-item-subtitle>
+      <v-icon size=\\"x-small\\" icon=\\"mdi-arrow-down\\" class=\\"arrow\\"></v-icon>
+      <!--v-if-->
     </v-list-item>
   </v-list>
 </v-navigation-drawer>"

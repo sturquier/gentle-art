@@ -1,0 +1,3 @@
+// Vitest Snapshot v1
+
+exports[`ClosedGuardPass > renders properly 1`] = `"<h1>Closed guard pass</h1>"`;

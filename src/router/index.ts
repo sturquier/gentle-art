@@ -3,6 +3,9 @@ import { createRouter, createWebHistory } from 'vue-router'
 
 import Home from '@/views/Home.vue'
 
+import ClosedGuardPass from '@/views/GuardPasses/ClosedGuardPass.vue'
+import HalfGuardPass from '@/views/GuardPasses/HalfGuardPass.vue'
+
 import BackMount from '@/views/Positions/BackMount.vue'
 import ClosedGuard from '@/views/Positions/ClosedGuard.vue'
 import CollarSleeveGuard from '@/views/Positions/CollarSleeveGuard.vue'
@@ -46,6 +49,10 @@ export const routes: Array<Route> = [
   ]},
   { label: 'Transitions', children: [
 
+  ]},
+  { label: 'Guard passes', children: [
+    { label: 'Closed guard pass', path: '/passes/closed-guard', component: ClosedGuardPass },
+    { label: 'Half guard pass', path: '/passes/half-guard', component: HalfGuardPass },
   ]},
   { label: 'Sweeps', children: [
     { label: 'Scissor sweep', path: '/sweeps/scissor', component: Scissor },
